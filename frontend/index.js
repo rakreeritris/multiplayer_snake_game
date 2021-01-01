@@ -5,7 +5,7 @@ const SNAKE_COLOR='#c2c2c2';
 
 const FOOD_COLOR='#e66916';
 
-const socket=io('http://localhost:3000');
+const socket=io('https://limitless-lake-23339.herokuapp.com/');
 
 
 socket.on('init',handleInit);
